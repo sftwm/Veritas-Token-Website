@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veritas Token - The Truth in Cryptocurrency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="vts.css">
+    <script type="module" src="app.js"></script>
+    
+</head>
+<body>
+    <!-- Overlay for mobile menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="vtslogo.png" alt="Veritas Token Logo">
+            <div class="logo-text">Veritas<span>Token</span></div>
+        </div>
+
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tokenomics">Tokenomics</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <a href="#cta" class="btn">Buy Now</a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-header">
+            <div class="mobile-nav-logo">
+                <img src="vtslogo.png" alt="Veritas Token Logo">
+                <div class="mobile-nav-logo-text">Veritas Token</div>
+            </div>
+            <button class="close-menu" id="closeMenu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <ul class="mobile-nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
+            <li><a href="#team">Team</a></li>
+        </ul>
+
+        <div class="mobile-nav-actions">
+            <button class="theme-toggle" id="mobileThemeToggle">
+                <i class="fas fa-moon"></i> Dark Mode
+            </button>
+            <a href="#cta" class="btn">Buy Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The Future of <span>Cryptocurrency</span> is Here</h1>
+            <p>Veritas Token brings transparency and innovation to the blockchain space. Join our community and be part of the revolution.</p>
+            <div class="hero-btns">
+                <a href="#cta" class="btn">Get Started</a>
+                <a href="#features" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="vtslogo.png" alt="Cryptocurrency Illustration">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-title">
+            <h2>Why Choose Veritas Token?</h2>
+            <p>Discover the features that make Veritas Token stand out in the crowded crypto space</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure & Reliable</h3>
+                <p>Built on robust blockchain technology with advanced security features to protect your investments.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>High Growth Potential</h3>
+                <p>Designed for long-term value appreciation with a sustainable tokenomics model.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Community Driven</h3>
+                <p>Our token thrives on community participation and decentralized decision-making.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="vtslogo.png" alt="About Veritas Token">
+        </div>
+        <div class="about-content">
+            <h2>About Veritas Token</h2>
+            <p>Veritas Token (VTS) was created with a mission to bring transparency and truth to the cryptocurrency space. In an industry often plagued by misinformation and hype, we stand for verifiable facts and sustainable growth.</p>
+            <p>Our team of blockchain experts and financial professionals have developed a token that combines the best aspects of decentralized finance with real-world utility.</p>
+            <p>Veritas is Latin for "truth," and that's exactly what we're bringing to the crypto ecosystem - a truthful alternative to the hype-driven projects that dominate the space.</p>
+            <a href="#tokenomics" class="btn">View Tokenomics</a>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section class="tokenomics" id="tokenomics">
+        <div class="section-title">
+            <h2>Tokenomics</h2>
+            <p>Our carefully designed token distribution ensures long-term sustainability</p>
+        </div>
+        <div class="tokenomics-grid">
+            <div class="token-card">
+                <h3>60%</h3>
+                <p>Allocation</p>
+            </div>
+            <div class="token-card">
+                <h3>15%</h3>
+                <p>Treasury Reserve</p>
+            </div>
+            <div class="token-card">
+                <h3>10%</h3>
+                <p>Team & Advisory</p>
+            </div>
+            <div class="token-card">
+                <h3>10%</h3>
+                <p>Community Rewards</p>
+            </div>
+            <div class="token-card">
+                <h3>5%</h3>
+                <p>Trust Reserve</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="roadmap" id="roadmap">
+        <div class="section-title">
+            <h2>Our Roadmap</h2>
+            <p>The strategic plan for Veritas Token's development and growth</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Q1 2023</h3>
+                    <p>Concept development and whitepaper creation. Initial team formation and project planning.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Q2 2023</h3>
+                    <p>Token development begins. Smart contract auditing and security testing.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Q3 2023</h3>
+                    <p>Initial token launch on testnet. Community building and early marketing efforts.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Q4 2023</h3>
+                    <p>Mainnet launch and initial exchange listings. First major partnerships announced.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Q1 2024</h3>
+                    <p>Mobile wallet development. Expansion of ecosystem partnerships.</p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>Q2 2024</h3>
+                    <p>Major exchange listings. Launch of staking platform and additional utilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="cta">
+        <h2>Ready to Join the Veritas Revolution?</h2>
+        <p>Get started with Veritas Token today and be part of the future of transparent cryptocurrency</p>
+        <a href="#" class="btn">Buy Veritas Token Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Veritas Token</h3>
+                <p>The truth in cryptocurrency. Transparent, secure, and community-driven.</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/VTScoin"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/veritastokencommunity"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tokenomics">Tokenomics</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Whitepaper</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Veritas Token. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
