@@ -685,7 +685,7 @@
 
         .footer-links li a:hover {
             opacity: 1;
-            color: var(--secondary);
+            color:  var(--lighter);
         }
 
         .social-icons {
